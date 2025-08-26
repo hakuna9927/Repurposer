@@ -1,14 +1,14 @@
-import React from 'react'
+import React from "react";
 
 const Navbar = () => {
   return (
-    <div>
-      <div className='flex justify-between p-10'>
-        <div className='text-bold'>LOGO</div>
-        <div className='bg-blue-600 text-white px-2 py-1 rounded-md cursor-pointer'>Login</div>
-      </div>
-    </div>
-  )
-}
+    <nav className="flex justify-between items-center px-8 py-4 bg-gradient-to-r from-indigo-600 to-purple-600 text-white shadow-md">
+      <div className="font-bold text-xl">Repurposer</div>
+      <button className="bg-white text-indigo-600 px-4 py-1.5 rounded-md shadow hover:bg-gray-100">
+        Login
+      </button>
+    </nav>
+  );
+};
 
-export default Navbar
+export default Navbar;

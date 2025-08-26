@@ -1,16 +1,17 @@
-import React from 'react'
-import Navbar from './component/Navbar'
-import Footer from './component/Footer'
-import Hero from './component/Hero'
+import React from "react";
+import Navbar from "./component/Navbar";
+import Hero from "./component/Hero";
+import Footer from "./component/Footer";
 
 const Landing = () => {
   return (
-    <div>
-      <Navbar/>
+    <div className="min-h-screen flex flex-col">
+      <Navbar />
       <Hero />
-      <Footer/>
+      <div className="flex-grow" />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Landing
+export default Landing;
