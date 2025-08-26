@@ -1,0 +1,78 @@
+#############################
+# Global
+#############################
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+~$*
+
+#############################
+# Python
+#############################
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+venv/
+ENV/
+.env
+.env.*
+
+#############################
+# FastAPI / tooling
+#############################
+uvicorn.log
+
+#############################
+# Node / Frontend
+#############################
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.eslintcache
+frontend/.tsbuildinfo
+frontend/yarn.lock
+frontend/pnpm-lock.yaml
+frontend/.env
+frontend/.env.*
+frontend/.DS_Store
+
+#############################
+# IDE / Editor
+#############################
+.idea/
+.vscode/
+*.iml
+
+#############################
+# Coverage / Reports
+#############################
+htmlcov/
+.coverage*
+coverage.xml
+reports/
+
+#############################
+# Misc
+#############################
+*.bak
+*.orig
+*.rej
+*.cache
+node_modules/
+
+.venv/
+__pycache__/
+*.pyc
+.env
+*.mp3
+yt_*/
