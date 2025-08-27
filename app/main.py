@@ -15,6 +15,7 @@ from app.api.routes import router as api_router
 from app.core.logger import setup_logging
 from app.core.config import settings
 
+
 # Setup logging
 setup_logging()
 
@@ -27,7 +28,7 @@ app = FastAPI(
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Configure appropriately for production
+    allow_origins=["https://repurposer-api.onrender.com"],  # Configure appropriately for production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
