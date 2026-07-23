@@ -1,19 +1,8 @@
-# Add your project dependencies here
-
-fastapi
-uvicorn[standard]
-yt-dlp
-faster-whisper
-pydantic-settings
-python-dotenv
-httpx
-langchain-google-genai
-
-# Testing dependencies
-pytest
-pytest-asyncio
-httpx
-
-# Additional dependencies for better functionality
-python-multipart
-
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+openpyxl
+jupyter
+ipykernel
